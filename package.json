@@ -1,8 +1,8 @@
 {
   "name": "zjshao22-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "零肆的知识库",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
