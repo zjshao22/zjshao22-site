@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "零肆の知识库"
-  text: "记录学习的点点滴滴"
+  name: "零肆知识库"
+  text: "AI | 全栈开发 | DevOps"
   tagline: "AI | 全栈开发 | DevOps"
   actions:
     - theme: brand
