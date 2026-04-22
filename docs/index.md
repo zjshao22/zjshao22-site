@@ -38,3 +38,5 @@ features:
     link: /ai/
     linkText: 探索 AI
 ---
+
+测试更新 - 2026/04/22
