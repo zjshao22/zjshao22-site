@@ -12,49 +12,9 @@ export default defineConfig({
     name: '零肆',
     nav: [
       { text: '首页', link: '/' },
-      { text: '前端', link: '/frontend/' },
-      { text: '后端', link: '/backend/' },
-      { text: 'DevOps', link: '/devops/' },
-      { text: 'AI', link: '/ai/' },
-      { text: '关于', link: '/about/' }
+      { text: 'AI', link: '/ai/' }
     ],
     sidebar: {
-      '/frontend/': [
-        {
-          text: '前端',
-          items: [
-            { text: '概览', link: '/frontend/' },
-            { text: 'JavaScript', link: '/frontend/javascript/' },
-            { text: 'TypeScript', link: '/frontend/typescript/' },
-            { text: 'Vue', link: '/frontend/vue/' },
-            { text: 'CSS', link: '/frontend/css/' }
-          ]
-        }
-      ],
-      '/backend/': [
-        {
-          text: '后端',
-          items: [
-            { text: '概览', link: '/backend/' },
-            { text: 'Python', link: '/backend/python/' },
-            { text: 'Node.js', link: '/backend/nodejs/' },
-            { text: '数据库', link: '/backend/database/' },
-            { text: 'API 设计', link: '/backend/api/' }
-          ]
-        }
-      ],
-      '/devops/': [
-        {
-          text: 'DevOps',
-          items: [
-            { text: '概览', link: '/devops/' },
-            { text: 'Docker', link: '/devops/docker/' },
-            { text: 'Linux', link: '/devops/linux/' },
-            { text: 'CI/CD', link: '/devops/cicd/' },
-            { text: 'Nginx', link: '/devops/nginx/' }
-          ]
-        }
-      ],
       '/ai/': [
         {
           text: 'AI',
