@@ -19,4 +19,9 @@ features:
     details: LLM / Prompt 工程 / 机器学习
     link: /ai/
     linkText: 探索 AI
+  - icon: 🧮
+    title: 算法
+    details: 数据结构 / 算法思想 / LeetCode 题解
+    link: /algorithm/
+    linkText: 探索 算法
 ---

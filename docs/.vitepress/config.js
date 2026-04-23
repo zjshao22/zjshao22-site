@@ -12,9 +12,18 @@ export default defineConfig({
     name: '零肆',
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI', link: '/ai/' }
+      { text: 'AI', link: '/ai/' },
+      { text: '算法', link: '/algorithm/' }
     ],
     sidebar: {
+      '/algorithm/': [
+        {
+          text: '算法',
+          items: [
+            { text: '概览', link: '/algorithm/' }
+          ]
+        }
+      ],
       '/ai/': [
         {
           text: 'AI',
