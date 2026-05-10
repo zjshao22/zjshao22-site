@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '零肆の知识库',
+  title: '计算机知识库',
   description: '记录学习的点点滴滴',
   base: '/',
   head: [
@@ -9,29 +9,17 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.svg',
-    name: '零肆',
+    name: '计算机知识库',
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI', link: '/ai/' },
-      { text: '算法', link: '/algorithm/' }
+      { text: '高中信息技术', link: '/high-school-it/' }
     ],
     sidebar: {
-      '/algorithm/': [
+      '/high-school-it/': [
         {
-          text: '算法',
+          text: '高中信息技术',
           items: [
-            { text: '概览', link: '/algorithm/' }
-          ]
-        }
-      ],
-      '/ai/': [
-        {
-          text: 'AI',
-          items: [
-            { text: '概览', link: '/ai/' },
-            { text: 'LLM', link: '/ai/llm/' },
-            { text: 'Prompt 工程', link: '/ai/prompt/' },
-            { text: '机器学习', link: '/ai/ml/' }
+            { text: '概览', link: '/high-school-it/' }
           ]
         }
       ]
@@ -41,7 +29,7 @@ export default defineConfig({
     ],
     footer: {
       message: '基于 VitePress 构建',
-      copyright: 'Copyright © 2024-present 零肆'
+      copyright: 'Copyright © 2024-present 计算机知识库'
     },
     search: {
       provider: 'local'
