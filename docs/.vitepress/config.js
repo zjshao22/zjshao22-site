@@ -7,6 +7,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg' }]
   ],
+  ignoreDeadLinks: true,
   themeConfig: {
     logo: '/logo.svg',
     name: '计算机知识库',
