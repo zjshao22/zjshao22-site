@@ -32,9 +32,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/zjshao22' }
     ],
     footer: {
-      message: '基于 VitePress 构建',
-      copyright: 'Copyright © 2024-present 计算机知识库',
-      sponsor: '<span id="busuanzi_container_site_pv">本站总访问量 <span id="busuanzi_value_site_pv">-</span> 次</span>'
+      message: '基于 VitePress 构建 | <span id="busuanzi_container_site_pv">本站总访问量 <span id="busuanzi_value_site_pv">-</span> 次</span>',
+      copyright: 'Copyright © 计算机知识库'
     },
     search: {
       provider: 'local'
