@@ -13,14 +13,13 @@ export default defineConfig({
     name: '计算机知识库',
     nav: [
       { text: '首页', link: '/' },
-      { text: '高中信息技术', link: '/high-school-it/' }
+      { text: '高中信息技术', link: '/high-school-it/course-intro/' }
     ],
     sidebar: {
       '/high-school-it/': [
         {
           text: '高中信息技术',
           items: [
-            { text: '概览', link: '/high-school-it/' },
             { text: '课程复习', link: '/high-school-it/course-intro/' },
             { text: '数据、信息与知识', link: '/high-school-it/knowledge-1/' },
             { text: '数字化与编码', link: '/high-school-it/knowledge-2/' }
