@@ -18,5 +18,9 @@ title: 课程复习
 
 ### 知识点1：数据、信息与知识
 
-[进入学习](/high-school-it/knowledge-1/) 
+[进入学习](/high-school-it/knowledge-1/)
+
+### 知识点2：数字化与编码
+
+[进入学习](/high-school-it/knowledge-2/) 
 
