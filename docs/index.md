@@ -16,7 +16,7 @@ hero:
 features:
   - icon: 📚
     title: 高中信息技术
-    details: 信息系统 / 数据处理 / 算法基础
+    # details: 信息系统 / 数据处理 / 算法基础
     link: /high-school-it/
     linkText: 进入学习
 ---
