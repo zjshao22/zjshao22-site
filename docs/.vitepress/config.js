@@ -19,7 +19,8 @@ export default defineConfig({
         {
           text: '高中信息技术',
           items: [
-            { text: '概览', link: '/high-school-it/' }
+            { text: '概览', link: '/high-school-it/' },
+            { text: '课程介绍', link: '/high-school-it/course-intro/' }
           ]
         }
       ]
